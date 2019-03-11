@@ -35,6 +35,30 @@ de los usuarios, para ello utilizaremos ***`sudo /etc/vsftpd.conf`***
 
 ![](Imagenes/configuracion.PNG)
 
+Una vez hemos realizado estos cambios, podemos guardar y salir. Seguidamente reiniciamos el servicio de vsftpd: 
+***`sudo service vsftpd restart`*** . 
+
+![](Imagenes/restart.PNG)
+
+Si no nos dice nada el sistema es que se ha restablecido correctamente. No obstante
+es interesante comprobar el estado del servidor para verificar que el servicio esté funcionando correctamente. Para ello
+podemos utilizar el comando ***`sudo service vsftpd status`***
+
+![](Imagenes/status.PNG)
+
+Con esto ya nos podríamos conectar desde el navegador poniendo en la barra de direcciones ftp://IP_servidor 
+
+![](Imagenes/comprobacionUrl.PNG)
+
+Para obtener la Ip podemos ayudarnos de ***`ifconfig`*** .
+
+![](Imagenes/ifconfig.PNG)
+
+# Usuarios
+
+## Creación de usuarios
+
+
 
 
 
